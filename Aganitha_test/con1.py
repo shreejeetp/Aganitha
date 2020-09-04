@@ -1,19 +1,15 @@
 import re
 
 def con1(para):
-  result=re.match('(\d)( dollars)',para)
-  para=para.replace(result.string,'$'+result.group(1))
-  return para
+  result=re.sub('(\d)( dollars)',r'$\1',para)
+  return result
 def con2(para):
-  result=re.match('C M',para)
-  if(result!=None):
-    para=para.replace(result.string,'CM')
-  return para
+  result=re.sub('[C,P] M','CM',para)
+  return result
 def con3(para):
-  result=re.match('(triple) (/w)',para)
-  if(result!=None):
-    para=para.replace(result.string,result.group(2)*3)
-  return para
+  result=re.sub('(triple) (\w)',r'\2\2\2',para)
+  return result
+
 def converter1(para):
   para=con1(para)
   para=con2(para)
