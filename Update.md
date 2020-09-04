@@ -1,1 +1,1 @@
-
+New conversions can simply be added by adding a respective conversion function in the con1.py file of Aganitha_test library, the priority can be established by placing the function in the right order of execution.
