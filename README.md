@@ -1,6 +1,8 @@
 # Aganitha
 
-Library can be compiled using setup.py
+
+Library can be compiled using setup.py, after compilation string can be passed to converter1 function which returns converted string.
+
 Main.py contains a demo version of the library
 
 Bugs Present:
