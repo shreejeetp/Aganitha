@@ -1,6 +1,7 @@
 # Aganitha
 
-
+Library can be compiled using setup.py
+Main.py contains a demo version of the library
 
 Bugs Present:
 ->The match string matches the whole line if it finds one occurence which in turn replaces the whole string
