@@ -1,1 +1,0 @@
-Due to time limit and connection problem at my end, im only able to make a most simplistic part of problem asked, but more conversions can be added by simply adding more regular expression and replacement in the exp and rep lists.
